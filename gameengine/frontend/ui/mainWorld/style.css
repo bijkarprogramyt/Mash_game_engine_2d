@@ -1,0 +1,17 @@
+/* reletive position */
+/* text tranform capitaliz */
+/* engineGameEditor style */
+.engineGameEditor {
+  width: 100%;
+  height: 300px;
+  background-color: #6bb2f1;
+  position: relative;
+  top: 30px;
+}
+
+.contain .header header .head h1 {
+  color: #1eb742;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=style.css.map */
