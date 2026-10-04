@@ -3,15 +3,17 @@ $relpos: relative;
 /* text tranform capitaliz */
 $upcase: capitalize;
 /* engineGameEditor style */
-
-.engineGameEditor {
-  width: 100%;
-  height: 300px;
-  background-color: #6bb2f1;
-  position: $relpos;
-  top: 30px;
-}
-
+/* btn width & height */
+$btnWidth: 100px;
+$btnHeight: 40px;
+/* bold fong weight */
+$bld: bold;
+/* 100% value */
+$onHn: 100%;
+/* pointer cursor */
+$pnter: pointer;
+/* sens serif font */
+$sanSerifFont: sans-serif;
 .contain {
   .header{
     header {
@@ -20,6 +22,21 @@ $upcase: capitalize;
           color: #1eb742ff;
           text-transform: $upcase;
         }
+        .addcube {
+          /* add cube ke under button tag hota hei tab */
+          button {
+            position: $relpos;
+            left: 8px;
+            top: 3px;
+            width: 100%;
+            width: 100vh;
+            max-width: $btnWidth;
+            height: $btnHeight;
+            font-size: 18px;
+            font-weight: $bld;
+            cursor: $pnter;
+          }
+        }
       }
     }
   }
@@ -27,8 +44,15 @@ $upcase: capitalize;
     .engineGameObject {
       
     }
+    /* game engine editor */
     .engineGameEditor {
-      
+      width: $onHn;
+      height: 100vh;
+      max-width: $onHn;
+      max-height: 320px;
+      background-color: #6bb2f1;
+      position: $relpos;
+      top: 20px;
     }
   }
   .footer {
