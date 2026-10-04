@@ -1,17 +1,41 @@
 /* reletive position */
 /* text tranform capitaliz */
 /* engineGameEditor style */
-.engineGameEditor {
-  width: 100%;
-  height: 300px;
-  background-color: #6bb2f1;
-  position: relative;
-  top: 30px;
-}
-
+/* btn width & height */
+/* bold fong weight */
+/* 100% value */
+/* pointer cursor */
+/* sens serif font */
 .contain .header header .head h1 {
   color: #1eb742;
   text-transform: capitalize;
+}
+.contain .header header .head .addcube {
+  /* add cube ke under button tag hota hei tab */
+}
+.contain .header header .head .addcube button {
+  position: relative;
+  left: 8px;
+  top: 3px;
+  width: 100%;
+  width: 100vh;
+  max-width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contain .bich {
+  /* game engine editor */
+}
+.contain .bich .engineGameEditor {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  max-height: 320px;
+  background-color: #6bb2f1;
+  position: relative;
+  top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
